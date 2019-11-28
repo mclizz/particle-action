@@ -15,3 +15,5 @@ In your GitHub action, to execute the `serve` function you've registered on a de
 ```
 
 You can also set `uses: mattdsteele/particle-action@master` to pull directly from GitHub, but the feedback loop will be much slower (as it builds the Docker container)
+- name: Particle Function
+  uses: mattdsteele/particle-action@1.0.0
